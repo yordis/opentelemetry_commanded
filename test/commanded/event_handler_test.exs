@@ -39,8 +39,7 @@ defmodule OpentelemetryCommanded.EventHandlerTest do
 
       assert match?(
                %{
-                 "commanded.event":
-                   "Elixir.OpentelemetryCommanded.DummyApp.Events.OkEvent"
+                 "commanded.event": "Elixir.OpentelemetryCommanded.DummyApp.Events.OkEvent"
                },
                attributes
              )
